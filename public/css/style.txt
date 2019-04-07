@@ -1,0 +1,18 @@
+:root {
+	--peach: rgba(253,207,193, .7);
+	--light-peach: rgba(253,207,193,.2);
+	--periwinkle: rgba(218,223,255, .7);
+	--light-periwinkle: rgba(218,223,255,.4);
+}	
+img {
+	width: 100%;
+}
+html {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
