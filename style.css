@@ -1,0 +1,101 @@
+h1 {
+	color: white !important;
+}
+
+h1, h2 {
+	padding: 0px 50px;
+}
+.jumbotron {
+	background-size: 100%;
+	height: 100%;
+}
+
+.banner-space {
+	height: 300px;
+	align-items: flex-end;
+	display: flex;
+}
+
+
+.timeline {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timestamp {
+  margin-bottom: 20px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 100;
+}
+
+.timestamp .date {
+	text-align: center;
+	align-self: center;
+	color:#808080;
+}
+
+.status {
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+  border-top: 4px solid #FDCFC1;
+  position: relative;
+  text-align: center;
+}
+.status h4 {
+  font-weight: 600;
+}
+.status h5 {
+  font-weight: 200;
+}
+.status:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid #FDCFC1;
+  position: absolute;
+  top: -15px;
+  left: 42%;
+}
+
+.li.complete .status {
+  border-top: 4px solid #FDCFC1;
+}
+.li.complete .status:before {
+  background-color: #FDCFC1;
+  border: none;
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+html, body {
+    font-family: neue-haas-grotesk-display, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+}
+
+button {
+  position: absolute;
+  width: 100px;
+  min-width: 100px;
+  padding: 20px;
+  margin: 20px;
+  font-family: "Titillium Web", sans serif;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
