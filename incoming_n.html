@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="css/incoming_n.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xzn4fqe.css">
+    <script type="text/javascript" src = 'public/javascript/faq.js'></script>
+    <title>CS KickStart</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/hover-min.css" rel="stylesheet">
+    <style>
+        .btn-group:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="margin:0;padding:0" onload="showAnswer()">
+
+  <div class="incoming-page">
+
+      <div class="incoming-banner">
+          <!-- <img src="public/images/about.jpg" class="header-img" alt="" width="100%"> -->
+          <div class="gray-box"></div>
+          <h2 class="incoming-title">INCOMING STUDENTS</h2>
+      </div>
+
+      <div class = "timeline">
+          <h2 class="header-title">
+            Our Timeline
+          </h2>
+          <img src="public/images/incoming_timeline.jpg" class="timeline-img timeline-format">
+          <button class="apply-button button" onclick="window.location.href = 'https://google.com';">APPLY HERE</button>
+      </div>
+
+
+      <div class = "schedule">
+        <h2 class="header-title">
+            Program Schedule
+        </h2>
+        <div class="purple-box"></div>
+      </div>
+
+      <div class = "curriculum">
+        <h3 class="header-title">
+            Curriculum Overview
+        </h3>
+        <div class = "curriculum-content">
+          <img src = "public/images/cute_placeholder.jpg" class = "curriculum-placeholder">
+          <div class = "text-button">
+            <p class="body-text-curriculum">
+              Our Curriculum Committee has updated the curriculum and materials for CS KickStart’s 2020 cohort. In addition to learning python, they will participate in brand new seminars on website building, data science, and electrical engineering. Our goal is for students to explore many different current technologies to see the awesome things computer science and other related fields can offer!
+            </p>
+            <button class="demo-button button" onclick="window.location.href = 'https://google.com';" >PROJECT DEMO</button>
+          </div>
+        </div>
+
+      </div> 
+
+      <div class = "faq">
+        <h3 class="header-title"> FAQs </h3>
+
+        <div id="faq">
+          <div class="oneFAQ">
+            <button class="question">Do I have to be an EECS or CS Major to participate in CS Kickstart?</button>
+            <div class="answer">
+              <p>We are interested in applicants of all majors and levels of CS experience. In the past, we have accepted CS and EECS majors as well as other majors such as Cognitive Science, Business, Molecular and Cellular Biology, Civil Engineering, Bioengineering, undecided, and more!</p>
+            </div>
+          </div>
+          <div class="oneFAQ">
+            <button class="question">Do I have to be a female to apply?</button>
+            <div class="answer">
+              <p>The target demographic for our program is female and female-identifying students. However, all incoming freshmen who have submitted an SIR to UC Berkeley (including spring admits) are welcome to apply.</p>
+            </div>
+          </div>
+
+          <div class="oneFAQ">
+            <button class="question">What kinds of activities would I be doing as a CSK participant?</button>
+            <div class="answer">
+              <p> We will have a mix of lab sessions, where you'll learn the basics of python, and industry events, including a company visit and a variety of panels. There will also be a lot of fun activities and bonding time! Please visit the <a href="incoming.html">incoming students</a> page for more details. </p>
+            </div>
+          </div>
+
+          <div class="oneFAQ">
+            <button class="question">How much do I have to pay to participate in CS Kickstart</button>
+            <div class="answer">
+              <p>Thanks to our <a href="sponsors">sponsors</a>, CS KickStart is completely free of charge to participants.</p>
+            </div>
+          </div>
+
+          <div class="oneFAQ">
+            <button class="question">I have _____ programming experience! Is CS KickStart right for me?</button>
+            <div class="answer">
+              <p>Past CS KickStart participants have had a wide range of previous programming experience. Based on survey results, 98% of participants would recommend CS KickStart to a friend who doesn’t have previous programming experience and 80% of participants would recommend CS KickStart to a friend who does have previous programming experience.</p>
+            </div>
+          </div>
+
+          <div class="oneFAQ">
+            <button class="question">Will I have to arrange housing for myself during CS KickStart week?</button>
+            <div class="answer">
+              <p>Housing will be provided free of charge during CS KickStart week. Participants will live in double or triple rooms in Unit 1 for four days and then move into their school year housing.</p>
+            </div>
+          </div>
+
+          <div class="oneFAQ">
+            <button class="question">Since we get there a week before move in, do we bring all our move-in stuff with us?</button>
+            <div class="answer">
+              <p>Yes, you can bring all your belongings with you -- we will have a place where you can store you stuff until you move into your actual room.</p>
+            </div>
+          </div>
+
+          <div class="oneFAQ">
+            <button class="question">When is the application deadline?</button>
+            <div class="answer">
+              <p>The application will be due May 27th.</p>
+            </div>
+          </div>
+
+          <div class="oneFAQ">
+            <button class="question">I submitted my application! When can I expect to know whether I was accepted or not?</button>
+            <div class="answer">
+              <p>Decisions will be released by June 20th.</p>
+            </div>
+          </div>
+
+          <p class = "faq-email">For any additional questions, please contact <em>cskickstart@gmail.com</em>. Thank you!</p>
+        </div> 
+      </div>
+      
+
+  </div>
+
+
+    <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/classie.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="js/agency.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('#footer-container').load('http://cskickstart.github.io/footer.html');
+  });
+ </script>
+</body>
+</html>

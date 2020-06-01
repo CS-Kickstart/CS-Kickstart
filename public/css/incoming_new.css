@@ -1,0 +1,232 @@
+/* ################### GENERAL ################### */
+body {
+    scroll-behavior: smooth;
+}
+
+.header {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vh;
+}
+
+.header-title{
+    font-size: calc(10px + 2.5vw);
+    color: #333;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-bottom: 1vw;
+    /*padding-left: 20vh;*/
+}
+
+.body-text {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #333;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5vh;
+    text-align: center;
+    width: 55%;
+    font-weight: 400;
+    font-size: 3vh;
+    line-height: 1.5em;
+}
+
+.content {
+    margin: 4vw 14vw 2vw ;
+}
+
+@media (max-width: 1200px){
+    .content {
+        margin: 3vw 8vw 2vw;
+    }
+}
+
+@media (max-width: 800px){
+    .content {
+        margin: 3vw 5vw 1vw;
+    }
+}
+
+hr {
+    /*border: 5px solid red;*/
+    width: 70%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    margin: 5px;
+    border-radius: 1vw;
+    border-color: rgb(0,0,0,0.3);
+    box-shadow: 3px 3px 3px #B5B5B5;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.5vw;
+    padding: 1vw 2.5vw;
+}
+
+@media (max-width: 1200px){
+    .button {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+}
+
+.button:hover{
+    background-color: #c1d4fc;
+    color: black;
+    border-color: rgb(0,0,0,0.3);
+}
+
+/* ################### INCOMING ################### */
+
+
+.incoming-title {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4vw;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    margin: 0;
+/*    margin: 0;
+    bottom: 0;
+    padding: 4vh;
+    padding-top: 1vh;*/
+}
+
+.incoming-banner {
+    /*scroll-snap-align: start;
+    position: relative;
+    display: inline-block;*/
+    /*height: 350px;*/
+    background-image: url("../images/about.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
+/* ################### TIMELINE ################### */
+.timeline {
+    font-family: 'Hammersmith One', sans-serif;;
+    color: #ffffff;
+}
+
+
+/* ################### SCHEDULE ################### */
+
+.schedule {
+
+}
+
+/* ################### CURRICULUM ################### */
+
+.curriculum{
+}
+
+#body-text-curriculum{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+
+    /*@media (max-width: 620px) {
+      width: 100%;
+    }*/
+}
+
+@media (max-width: 1100px){
+    #body-text-curriculum {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768){
+    #body-text-curriculum {
+        font-size: 14px;
+    }
+}
+
+.curriculum-placeholder {
+    border-radius: 15px;
+}
+
+.demo-button{
+    
+}
+
+/* ################### FAQS ################### */
+
+.faq{
+    /*top: 300px;*/
+}
+
+h1 {
+    font-size: 64px;
+    font-family: neue-haas-grotesk-text-pro, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.oneFAQ {
+    margin-bottom: 1vw;
+}
+
+.question {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 24px;
+    background-color: rgb(218, 223, 255);
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+@media (max-width: 1100px){
+    .question {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768){
+    .question {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576){
+    .question {
+        font-size: 15px;
+    }
+}
+
+.active, .question:hover {
+    font-weight: bold;
+}
+
+.answer {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 20px;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgba(218, 223, 255, .4);
+}
+
+.faq-email{
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
