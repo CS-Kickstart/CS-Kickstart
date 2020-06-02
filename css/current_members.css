@@ -79,8 +79,9 @@ body {
     padding: 5vh;
 }
 
-.stats {
-    padding-top: 5vh;
+.blurb {
+    padding-top: 2vh;
+    padding-bottom: 3vh;
     text-align: center;
     font-size: 5vh;
     color: #333;
@@ -113,7 +114,7 @@ body {
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 3%;
-    width: 55%;
+    width: 54%;
     background-color: #C4C4C4;
     height: 60vh;
 }
@@ -123,7 +124,7 @@ body {
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 3%;
-    width: 55%;
+    width: 54%;
     background-color: #C4C4C4;
     height: 60vh;
 }
@@ -133,7 +134,7 @@ body {
     margin-right: auto;
     margin-left: 5%;
     margin-bottom: 3%;
-    width: 30%;
+    width: 31%;
     background-color: rgba(218, 223, 255, 0.51);
     height: 60vh;
 }
@@ -143,7 +144,7 @@ body {
     margin-right: 5%;
     margin-left: auto;
     margin-bottom: 3%;
-    width: 30%;
+    width: 31%;
     background-color: rgba(253, 207, 193, 0.6);
     height: 60vh;
 }
@@ -154,6 +155,8 @@ body {
     color: black;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    vertical-align: center;
 }
 
 .exp {
