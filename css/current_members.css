@@ -16,10 +16,9 @@ body {
 }
 
 .carousel-photo {
+    height: 60vh;
+    object-fit: cover;
     align-content: center;
-    height:100% !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
     display: block; /* remove extra space below image */
 }
 
@@ -104,7 +103,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
     cursor: pointer;
     display: flex;
     justify-content: center;
