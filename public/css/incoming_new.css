@@ -71,13 +71,19 @@ img {
 
 @media (max-width: 1200px){
     .button {
+        font-size: 17px;
+        padding: 12px 24px;
+    }
+}
+@media (max-width: 800px){
+    .button {
         font-size: 12px;
         padding: 8px 20px;
     }
 }
 
 .button:hover{
-    background-color: #c1d4fc;
+    background-color: lightgray;
     color: black;
     border-color: rgb(0,0,0,0.3);
 }
