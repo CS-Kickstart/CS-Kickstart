@@ -15,6 +15,21 @@ body {
     font-size: 5vh;
 }
 
+.committee-photo {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    align-content: center;
+    display: block;
+}
+
+.carousel-photo {
+    height: 60vh;
+    object-fit: cover;
+    align-content: center;
+    display: block; /* remove extra space below image */
+}
+
 .body-text {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 300;
@@ -43,7 +58,7 @@ body {
     font-size: 6vh;
     position: absolute;
     z-index: 999;
-    height: 5vh;
+    height: 9vh;
     background: rgba(255, 255, 255, 0.5);
     color: black;
     margin: 0;
@@ -53,9 +68,8 @@ body {
 }
 
 .about-banner {
-    scroll-snap-align: start;
+    align-content: bottom;
     position: relative;
-    display: inline-block;
 }
 
 /* ################### TIMELINE ################### */
@@ -80,7 +94,7 @@ body {
 }
 
 .blurb {
-    padding-top: 2vh;
+    padding-top: 4vh;
     padding-bottom: 3vh;
     text-align: center;
     font-size: 5vh;
@@ -93,11 +107,11 @@ body {
     border: 2px solid black;
     border-radius: 12px;
     color: black;
-    padding: 15px 32px;
+    padding: 3% 10%;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -151,6 +165,29 @@ body {
 
 .expansion {
     padding: 8vh;
+    padding-top: 25%;
+    padding-bottom: 0;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+.expansion2 {
+    padding: 8vh;
+    padding-top: 18%;
+    padding-bottom: 0;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+.expansion3 {
+    padding: 8vh;
+    padding-top: 30%;
     padding-bottom: 0;
     color: black;
     margin-left: auto;
@@ -175,54 +212,6 @@ body {
     text-decoration: underline;
     color: #969696;
 }
-
-/* ################### FOUNDERS ################### */
-.about-organizers {
-    scroll-snap-align: start;
-    padding: 4vh;
-}
-
-.organizer-content {
-    width: 60vw;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.org {
-    margin: 0;
-    text-align: left;
-    width: 100%;
-    padding: 0;
-}
-
-.organizer-item {
-    flex-direction: row;
-    display: flex;
-    margin: 7vh;
-}
-
-.organizer-name {
-    font-size: 4vh;
-    color: #333;
-    margin: 0;
-}
-
-.organizer-information {
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    margin-left: 7vh;
-}
-
-.img-circle {
-    border-radius: 50%;
-}
-
-.organizers {
-    text-align: right;
-    color: #333;
-    padding-right: 25vw;
-}
-
 
 /* ################### PRESS ################### */
 .about-press {
