@@ -1,0 +1,37 @@
+:root {
+    --cskfont: #333; /* #333333 */
+    --cskfont40: rgba(51, 51, 51, 0.4); /* #333333, but at 40% opacity */
+    --cskpink: #FF989B;
+    --cskpink60: rgba(253, 207, 193, 0.6); /* pink at 60% opacity */
+    --cskpurple: #9BA4FF;
+    --cskpurple60: rgba(155, 164, 255, 0.4); /* purple at 60% opacity */
+    --cskwhite80: rgba(255, 255, 255, 0.8);
+}
+
+body {
+    background: white;
+    font-weight: 400;
+    color: var(--cskfont);
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#banner {
+    width: 100%;
+}
+
+/* CONTENT */
+.stat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.percent {
+    width: 15vh;
+    margin: 1vh 2vw 2vw 2vw;
+}

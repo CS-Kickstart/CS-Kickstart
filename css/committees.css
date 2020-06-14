@@ -1,51 +1,4 @@
-/* ################### GENERAL ################### */
-body {
-    scroll-behavior: smooth;
-}
-
-.header {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 5vh;
-}
-
-.body-text {
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    color: #333;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 2vh;
-    text-align: center;
-    vertical-align: center;
-    width: 55%;
-    font-weight: 400;
-    font-size: 3vh;
-    line-height: 1.5em;
-}
-
-.hr {
-    width: 50%;
-}
-
-.about-title {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 4vw;
-    background: rgba(255, 255, 255, 0.5);
-    color: black;
-    margin: 0;
-}
-
-.about-banner {
-    background-image: url("../public/images/about.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 30vw;
-}
-
+/* ################### CONTENT ################### */
 .content {
     margin: 4vw 14vw 2vw ;
 }
@@ -65,56 +18,9 @@ hr {
     width: 70%;
 }
 
-/* ################### BLURB ################### */
-
-.blurb {
-    text-align: center;
-    color: #333;
-}
-
-.blurb-h{
-    font-family: 'brandon-grotesque', sans-serif;
-    font-size: calc(18px + 2vw);
-}
-
-.blurb-b{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: calc(10px + 0.7vw);
-}
-
-.button {
-    border-radius: 1vw;
-    border-color: rgb(0,0,0,0.3);
-    box-shadow: 3px 3px 3px #B5B5B5;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 1.5vw;
-    padding: 1vw 2.5vw;
-}
-
-@media (max-width: 1200px){
-    .button {
-        font-size: 17px;
-        padding: 12px 24px;
-        border-radius: 
-    }
-}
-@media (max-width: 700px){
-    .button {
-        font-size: 12px;
-        padding: 8px 20px;
-    }
-}
-
-.button:hover{
-    background-color: lightgray;
-    color: black;
-    border-color: rgb(0,0,0,0.3);
-}
-
 /* ################### CARDS ################### */
 
 .card-title{
-    font-family: 'Hammersmith One', sans-serif;
     font-size: 1.5em;
 }
 

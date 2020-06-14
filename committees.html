@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://use.typekit.net/xzn4fqe.css">
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/vhi7kwp.css">
 
-    <title>CSK | Committees</title>
-
-    <!-- Bootstrap Core CSS -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 
     <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-    <link href="css/hover-min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="css/headerfooterstyle.css">
     <link rel="stylesheet" href="css/committees.css">
 
+    <title>CS Kickstart</title>
 </head>
 
-<body style="margin:0;padding:0">
+<body>
+    <!-- NAVBAR -->
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="index.html" class="navbar-brand">
+            <img src="imgs/logo.png" id="logo-img">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="committees.html" class="nav-link">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a href="calendar.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sponsors.html" class="nav-link">Sponsor Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="current_members.html" class="nav-link">Alumni</a>
+                </li>
+                <li class="nav-item">
+                    <a href="incoming_new.html">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Apply</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
   <div class="about-page">
     <section class="banner container-fluid">
       <div class="row about-banner align-items-end">
@@ -47,12 +61,12 @@
       </div>
     </section>
 
-    <section class="content"> 
-      <div class="blurb mt-2 mt-md-5">
-        <h2 class="blurb-h display-5"> Stay involved and help run CSK for the next cohort! </h2> 
-        <p class="blurb-b mt-md-2">Our six committees work hard throughout the year to keep CSK running. We are continuously working to improve the program by designing new curricula, hosting indsutry panels, obtaining more funding, and making CSK accessible to as many people as possible. </p>
+    <section class="content">
+      <div class="blurb mt-2 mt-md-5 text-center">
+        <h2 class="blurb-h display-5"> Stay involved and help run CSK for the next cohort! </h2>
+        <p class="">Our six committees work hard throughout the year to keep CSK running. We are continuously working to improve the program by designing new curricula, hosting indsutry panels, obtaining more funding, and making CSK accessible to as many people as possible. </p>
         <div class="text-center">
-          <a class="btn btn-outline-dark button mt-md-1 mb-2" href="#">JOIN A COMMITTEE</a>
+          <a class="btn btn-outline-success button mt-md-1 mb-2" href="#">Join a committee!</a>
         </div>
       </div>
     </section>
@@ -67,9 +81,9 @@
                     <img class="card-img-top" src="./public/images/committees/events.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Events</h5>
-                        <p class="card-text"> Events works with other organizations 
-                          including the EECS Department and other student groups to run CAP events, 
-                          community events, etc. They also plan and host workshops with industry partners and 
+                        <p class="card-text"> Events works with other organizations
+                          including the EECS Department and other student groups to run CAP events,
+                          community events, etc. They also plan and host workshops with industry partners and
                           member socials.</p>
                     </div>
                 </div>
@@ -80,8 +94,8 @@
                     <img class="card-img-top" src="./public/images/committees/curriculum.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Curriculum</h5>
-                        <p class="card-text">Curriculum continuously improves on the existing curriculum 
-                          by designing new topics and teaching materials for each incoming cohort of 
+                        <p class="card-text">Curriculum continuously improves on the existing curriculum
+                          by designing new topics and teaching materials for each incoming cohort of
                           CS Kickstarters. During the week of CSK, they staff labs and workshops.</p>
                     </div>
                 </div>
@@ -92,12 +106,12 @@
                        <img class="card-img-top" src="./public/images/committees/pub.png" alt="">
                        <div class="card-body">
                            <h5 class="card-title">Publicity & Design</h5>
-                           <p class="card-text">Publicity and Design runs CSK's social media accounts and helps increase its visibility in the department, college, and media. 
+                           <p class="card-text">Publicity and Design runs CSK's social media accounts and helps increase its visibility in the department, college, and media.
                              We also design and order CSK swag like stickers and our signature purple t-shirts!</p>
                         </div>
                    </div>
                </div>
-               
+
                <div class="col-lg-4 mb-4 mt-4">
                 <div class="card shadow h-100">
                   <img class="card-img-top" src="./public/images/committees/ir.png" alt="">
@@ -115,7 +129,7 @@
                       <img class="card-img-top" src="./public/images/committees/website.png" alt="">
                       <div class="card-body">
                           <h5 class="card-title">Website</h5>
-                          <p class="card-text">Website creates and mantains this website by continually improving its 
+                          <p class="card-text">Website creates and mantains this website by continually improving its
                             features and design and updating new profiles and sponsors every year. They keep updated on CSK's progress and reflect it here.</p>
                       </div>
                   </div>
@@ -136,29 +150,91 @@
       </div>
    </section>
 
-          
+
   </div>
 
-    <!-- jQuery -->
-  <script src="js/jquery.js"></script>
+  <!-- FOOTER -->
+  <br><br>
+  <footer class="footer page-footer text-center align-items center justify-content center">
+      <section class="container-fluid px-0 text-center align-items-center justify-content-center pink-bg">
+          <h3 class="mb-4">Stay Informed!</h3>
+          <!-- <form action="emails.php">
+              <input type="text" placeholder="Email Address" name="mail" required="">
+              <input type="submit" value="Submit">
+          </form> -->
+          <a href="https://forms.gle/oLRMDbLB9hEbRfte6">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join our mailing list!</button>
+          </a>
+      </section>
+      <section class="container-fluid px-0 text-center align-items-center justify-content-center row">
+          <div class="col-md-2 mx-0 align-items-center justify-content-center">
+              <h5 class="font-weight-bold text-uppercase mt-5 mb-4">About Us</h5>
+              <ul class="list-unstyled">
+                  <li>
+                      <a href="about.html" class="lead">Our Mission</a>
+                  </li>
+                  <li>
+                      <a href="committees.html" class="lead">Our Team</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-md-2 mx-0 align-items-center justify-content-center">
+              <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Impact</h5>
+              <ul class="list-unstyled">
+                  <li>
+                      <a href="about.html#about-press" class="lead">Stories</a>
+                  </li>
+                  <li>
+                      <a href="https://sites.google.com/umich.edu/cskickstart/home" class="lead">Sister Program</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-md-2 mx-0 align-items-center justify-content-center">
+              <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Our Program</h5>
+              <ul class="list-unstyled">
+                  <li>
+                      <a href="incoming_new.html" class="lead">Apply</a>
+                  </li>
+                  <li>
+                      <a href="about.html" class="lead">Learn More</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-md-2 mx-0 align-items-center justify-content-center">
+              <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Get Involved</h5>
+              <ul class="list-unstyled">
+                  <li>
+                      <a href="current_members.html" class="lead">Current Members</a>
+                  </li>
+                  <li>
+                      <a href="sponsors.html" class="lead">Support Us</a>
+                  </li>
+              </ul>
+          </div>
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
+          <div class="col-md-2 mx-0 align-items-center justify-content-center" id="social-media">
+              <a class="social-logo" href="https://www.facebook.com/CS.KickStart" target="_"><img src="imgs/facebook.svg"></a>
+              <a class="social-logo" href="https://www.instagram.com/cs.kickstart/" target="_"><img src="imgs/instagram.svg"></a>
+              <a class="social-logo" href="https://medium.com/@cskickstart" target="_"><img src="imgs/medium.svg"></a>
+          </div>
+      </section>
+      <br><br>
+  </footer>
 
-  <!-- Plugin JavaScript -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="js/classie.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
 
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
-  <!-- Custom Theme JavaScript -->
-  <script src="js/agency.js"></script>
   <script>
-  $(document).ready(function() {
-    $('#footer-container').load('http://cskickstart.github.io/footer.html');
-  });
- </script>
+      $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#mainNavbar");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+      });
+  </script>
 </body>
+
 </html>

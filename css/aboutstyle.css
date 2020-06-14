@@ -1,57 +1,3 @@
-/* ################### GENERAL ################### */
-body {
-    scroll-behavior: smooth;
-}
-
-.header {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 5vh;
-}
-
-.body-text {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #333;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 5vh;
-    text-align: center;
-    width: 55%;
-    font-weight: 400;
-    font-size: 3vh;
-    line-height: 1.5em;
-}
-
-.hr {
-    width: 50%;
-}
-
-.about-title {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 6vh;
-    position: absolute;
-    z-index: 999;
-    height: 5vh;
-    background: rgba(255, 255, 255, 0.5);
-    color: white;
-    margin: 0;
-    bottom: 0;
-    padding: 4vh;
-    padding-top: 1vh;
-}
-
-.about-banner {
-    scroll-snap-align: start;
-    position: relative;
-    display: inline-block;
-}
-
 /* ################### TIMELINE ################### */
 .timeline {
     color: #ffffff;
@@ -162,7 +108,7 @@ body {
 
 
 /* ################### PRESS ################### */
-.about-press {
+#about-press {
     margin-top: 7vh;
     height: 40vh;
     width: 60vw;

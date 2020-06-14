@@ -2,100 +2,113 @@
 <html lang="en">
 
 <head>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="https://use.typekit.net/xzn4fqe.css">
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/vhi7kwp.css">
 
-    <title>CS KickStart</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 
     <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-    <link href="css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/headerfooterstyle.css">
+    <link rel="stylesheet" href="css/aboutstyle.css">
 
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <title>CS Kickstart</title>
 </head>
 
-<body style="margin:0;padding:0">
-  <div class="about-page">
-      <div class="about-banner">
-          <img src="public/images/about.jpg" class="header-img" alt="" width="100%">
-          <h2 class="about-title">ABOUT US</h2>
-      </div>
-  
-      <div class="tab-content"> 
+<body>
+    <!-- NAVBAR -->
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="index.html" class="navbar-brand">
+            <img src="imgs/logo.png" id="logo-img">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="committees.html" class="nav-link">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a href="calendar.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sponsors.html" class="nav-link">Sponsor Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="current_members.html" class="nav-link">Alumni</a>
+                </li>
+                <li class="nav-item">
+                    <a href="incoming_new.html">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Apply</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="about-page">
+      <section class="banner container-fluid">
+        <div class="row about-banner align-items-end">
+          <h2 class="about-title px-3 py-1">ABOUT US</h2>
+        </div>
+      </section>
+
+        <div class="tab-content">
             <div class="about-intro">
-              <p class="body-text">
-                CS KickStart is a one-week introductory class to computer science. Students learn how to program, 
+                <p class="body-text">
+                CS KickStart is a one-week introductory class to computer science. Students learn how to program,
                 meet computer science students and professionals, and are introduced to different areas of computer science. This program
-                targets incoming UC Berkeley students who are curious about computer science and are interested in math, science or 
-                engineering. Students do not need to have any prior skills in programming. Our goal is to give them a hands-on experience 
+                targets incoming UC Berkeley students who are curious about computer science and are interested in math, science or
+                engineering. Students do not need to have any prior skills in programming. Our goal is to give them a hands-on experience
                 in programming and to show them the creativity and power of computer science.
-              </p>
+                </p>
             </div>
-      
+
             <div class="gender-stats">
-              <h3 class="header stats">
-                WHY DOES CS KICKSTART EXIST?
-              </h3>
-              <p class="body-text">
-                Girls are naturally just as interested in computer science as boys, but as girls grow up,
-                they are increasingly less likey to pursue a tech role. According to McKinsey, an American worldwide
-                management consulting firm, "tech companies concentrate 66% of their philanthropic funding on K-12
-                programs, compared to 3% on college-level programs."
-              </p>
-              <hr width="50%">
-              <img src="public/images/mckinseystats.svgz" class="stats-img" alt="" width="50%">
-              <hr width="50%">
-              <p class="body-text">
-                At UC Berkeley, CS is 25% female and EECS is only 20% female. Our program helps close the gender gap 
-                by creating a supportive community, providing female role models to participants, and giving resources
-                to allow woman to succeed in the tech industry,
-              </p>
+                <h3 class="header stats">
+                    WHY DOES CS KICKSTART EXIST?
+                </h3>
+                <p class="body-text">
+                    Girls are naturally just as interested in computer science as boys, but as girls grow up, they are increasingly less likey to pursue a tech role. According to McKinsey, an American worldwide management consulting firm, "tech companies concentrate 66% of their philanthropic funding on K-12 programs, compared to 3% on college-level programs."
+                </p>
+                <hr width="50%">
+                <img src="imgs/mckinseystats.svgz" class="stats-img" alt="" width="50%">
+                <hr width="50%">
+                <p class="body-text">
+                    At UC Berkeley, CS is 25% female and EECS is only 20% female. Our program helps close the gender gap
+                    by creating a supportive community, providing female role models to participants, and giving resources to allow woman to succeed in the tech industry,
+                </p>
             </div>
-      
+
             <div class="about-timeline">
-              <h3 class="header timeline">
+                <h3 class="header timeline">
                 OUR TIMELINE
-              </h3>
-              <img src="public/images/timeline2.png" class="timeline-img" alt="" width="80%" height="100%">
+                </h3>
+                <img src="imgs/timeline2.png" class="timeline-img" alt="" width="80%" height="100%">
             </div>
-      
+
             <div class="about-organizers">
                 <h3 class="header organizers">
                   OUR CO-FOUNDERS
                 </h3>
-                <div class="organizer-content"> 
+                <div class="organizer-content">
                   <div class="organizer-item">
-                    <img src="public/images/floraine.jpg" class="img-circle" alt="" width="25%" height="25%">
+                    <img src="imgs/floraine.jpg" class="img-circle" alt="" width="25%" height="25%">
                     <div class="organizer-information">
                         <h4 class="organizer-name">Floraine Berthouzoz</h4>
                         <p class="body-text org">
                           Floraine is currently a research scientest in the Creative Technologies Lab at Adobe
                           Systems. Her research interests are in computer graphics and HCI. Her work aims at building
                           tools that make it faster and easier for people to create and visualize high quality
-                          media content. Besides her work, she loves to travel, never getting tired of visiting 
+                          media content. Besides her work, she loves to travel, never getting tired of visiting
                           new places, learning new languages, understanding different cultures.
 
                         </p>
@@ -103,15 +116,15 @@
                   </div>
                   <br>
                   <div class="organizer-item">
-                    <img src="public/images/colleen.jpg" class="img-circle" alt="" width="25%" height="25%">
+                    <img src="imgs/colleen.jpg" class="img-circle" alt="" width="25%" height="25%">
                     <div class="organizer-information">
                         <h4 class="organizer-name">Colleen Lewis</h4>
                         <p class="body-text org">
                           Collen is the McGregor-Girand Associate Professor of computer science at Harvey Mudd
-                          College. She specializes in computer science education and curriculum development. 
-                          Lewis also reasearched gender and diversity issues in CS education and how programming 
-                          environment shapes perception, learning and goals. Lewis teaches computer science 
-                          courses as well as a seminar course on computer science education. 
+                          College. She specializes in computer science education and curriculum development.
+                          Lewis also reasearched gender and diversity issues in CS education and how programming
+                          environment shapes perception, learning and goals. Lewis teaches computer science
+                          courses as well as a seminar course on computer science education.
                         </p>
                     </div>
                   </div>
@@ -123,55 +136,116 @@
                   BRING CSK TO YOUR CAMPUS!
                 </h3>
                 <p class="body-text exp">
-                  Any university campus can have a CS Kickstart program! CS Kickstart is a program that aims to 
-                  improve the enrollment and persistence of women in CS related majors. We hope to give women a 
+                  Any university campus can have a CS Kickstart program! CS Kickstart is a program that aims to
+                  improve the enrollment and persistence of women in CS related majors. We hope to give women a
                   voice and level the playing field in terms of academic and career opportunities. Interested?
                 </p>
                 <address class="body-text exp">
-                  Just write to us at <a class="csk-email" href="mailto:cskickstart@gmail.com">cskickstart@gmail.com</a>!<br> 
+                  Just write to us at <a class="csk-email" href="mailto:cskickstart@gmail.com">cskickstart@gmail.com</a>!<br>
                 </address>
 
             </div>
 
-            <div class="about-press">
+            <div id="about-press">
                 <h3 class="press">
                   Press & Recognition
                 </h3>
                 <div class="icons">
                   <a href="https://www.mercurynews.com/2014/02/28/cs-kickstart-gives-budding-female-computer-scientists-a-window-to-the-programming-world/?clearUserState=true">
-                    <img src="public/images/mercury.png" alt="HTML tutorial" class="icon">
+                    <img src="imgs/mercury.png" alt="HTML tutorial" class="icon">
                   </a>
                   <a href="https://www.ncwit.org/previous-seed-fund-recipients">
-                    <img src="public/images/ncwit.png" alt="HTML tutorial" class="icon">
+                    <img src="imgs/ncwit.png" alt="HTML tutorial" class="icon">
                   </a>
                   <a href="https://www.mercurynews.com/?returnUrl=https://www.mercurynews.com/2018/04/16/forget-techs-bad-bros-stanford-berkeley-boost-female-computing-grads/?clearUserState=true">
-                    <img src="public/images/mercury.png" alt="HTML tutorial" class="icon">
+                    <img src="imgs/mercury.png" alt="HTML tutorial" class="icon">
                   </a>
                 </div>
             </div>
       </div>
   </div>
 
-    <!-- jQuery -->
-  <script src="js/jquery.js"></script>
+    <!-- FOOTER -->
+    <footer class="footer page-footer text-center align-items center justify-content center">
+        <section class="container-fluid px-0 text-center align-items-center justify-content-center pink-bg">
+          <h3 class="mb-4">Stay Informed!</h3>
+          <!-- <form action="emails.php">
+              <input type="text" placeholder="Email Address" name="mail" required="">
+              <input type="submit" value="Submit">
+          </form> -->
+          <a href="https://forms.gle/oLRMDbLB9hEbRfte6">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join our mailing list!</button>
+          </a>
+        </section>
+        <section class="container-fluid px-0 text-center align-items-center justify-content-center row">
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+              <h5 class="font-weight-bold text-uppercase mt-5 mb-4">About Us</h5>
+              <ul class="list-unstyled">
+                  <li>
+                      <a href="about.html" class="lead">Our Mission</a>
+                  </li>
+                  <li>
+                      <a href="committees.html" class="lead">Our Team</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Impact</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="about.html#about-press" class="lead">Stories</a>
+                    </li>
+                    <li>
+                        <a href="https://sites.google.com/umich.edu/cskickstart/home" class="lead">Sister Program</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Our Program</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="incoming_new.html" class="lead">Apply</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="lead">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Get Involved</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="current_members.html" class="lead">Current Members</a>
+                    </li>
+                    <li>
+                        <a href="sponsors.html" class="lead">Support Us</a>
+                    </li>
+                </ul>
+            </div>
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center" id="social-media">
+                <a class="social-logo" href="https://www.facebook.com/CS.KickStart" target="_"><img src="imgs/facebook.svg"></a>
+                <a class="social-logo" href="https://www.instagram.com/cs.kickstart/" target="_"><img src="imgs/instagram.svg"></a>
+                <a class="social-logo" href="https://medium.com/@cskickstart" target="_"><img src="imgs/medium.svg"></a>
+            </div>
+        </section>
+        <br><br>
+    </footer>
 
-  <!-- Plugin JavaScript -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="js/classie.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
 
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
-  <!-- Custom Theme JavaScript -->
-  <script src="js/agency.js"></script>
-  <script>
-  $(document).ready(function() {
-    $('#footer-container').load('http://cskickstart.github.io/footer.html');
-  });
- </script>
+    <script>
+      $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#mainNavbar");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+      });
+    </script>
 </body>
+
 </html>

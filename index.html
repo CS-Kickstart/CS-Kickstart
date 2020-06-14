@@ -1,150 +1,242 @@
 <!DOCTYPE html>
-<html>
-    <!-- this is where hidden data goes, such as linking css and fonts -->
-    <head>
-        <link rel="stylesheet" type="text/css" href="assets/styles/indexstyle.css">
-        <link rel="stylesheet" href="https://use.typekit.net/vhi7kwp.css">
+<html lang="en">
 
-        <title>CS Kickstart</title>
-    </head>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- this is where all visible content goes -->
-    <body>
-        <div id="navbar">
-            <a class = "nav" href="">Home</a>
-            <a class = "nav" href="">About Us</a>
-            <a class = "nav" href="">Program</a>
-            <div class = "drop">
-                <div class = "drop-button">Sponsors</div>
-                <div class = "drop-nav">
-                    <a class = "nav" href="">Incoming Students</a>
-                    <br><a class = "nav" href="">Current Members</a>
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/vhi7kwp.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/headerfooterstyle.css">
+    <link rel="stylesheet" href="css/indexstyle.css">
+
+    <title>CS Kickstart</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="index.html" class="navbar-brand">
+            <img src="imgs/logo.png" id="logo-img">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="committees.html" class="nav-link">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a href="calendar.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sponsors.html" class="nav-link">Sponsor Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="current_members.html" class="nav-link">Alumni</a>
+                </li>
+                <li class="nav-item">
+                    <a href="incoming_new.html">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Apply</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- INDEX HEADER -->
+    <img src="imgs/banner.png" id="banner">
+
+    <!-- LEFT/RIGHT CONTENT -->
+    <!-- <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 mb-5 mb-md-0">
+                        LEFT
+                    </div>
                 </div>
             </div>
-            <a href=""><div class="button">APPLY</div></a>
+            <div class="col-md-6 text-center order-1 order-md-2 pink-bg">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 mb-5 mb-md-0">
+                        RIGHT
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    <h3 class="text-center"><br>We are a non-profit student organization that aims to empower girls in computer science.</h3>
+
+    <!-- SECTION -->
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 mb-5 mb-md-0">
+                        <h2>GIRLS IN TECH</h2>
+                        <div class="stat">
+                            <img src="imgs/25percent.png" class="percent column"/>
+                            <p class="lead text-left column">of women with computer science degrees in according to the National Center for Education Statistics.</p>
+                        </div>
+                        <div class="stat">
+                            <img src="imgs/20percent.png" class="percent column"/>
+                            <p class="lead text-left column">of women with computer science degrees in according to the National Center for Education Statistics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2 pink-bg">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 mb-5 mb-md-0">
+                        <h2>OUR PROGRAM</h2>
+                        <p class="lead text-left">1. Introduces girls to the basics of Python programming, Web Development, and Web Design.</p>
+                        <p class="lead text-left">2. Provides an opportunity to visit tech companies in Sillicon Valley to explore and talk with the industry experts.</p>
+                        <p class="lead text-left">3. Prepares incoming freshmen to a college life through informal mentorship and a variety of available resources.</p>
+                        <p class="lead text-left">4. Creates an empowering community of friends through fun social activities (ice cream social, board games, etc.).</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div id="main-content">
-            <!-- header -->
-            <div id="header">
-                <img src="assets/images/banner.png"/>
-                <div>We are a non-profit student organization that aims to empower girls in computer science</div>
+    <!-- SECTION -->
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="imgs/committees2018.jpg" alt="" class="img-fluid">
             </div>
-
-            <!-- info -->
-            <div class="info content-section">
-                <!-- stats -->
-                <div id="stats">
-                    <h2>Girls in Tech</h2>
-
-                    <div class="stat">
-                        <p class="percentage">25%</p>
-                        <p class="stat-item">of women with computer science degrees in according to the National Center for Education Statistics.</p>
-                    </div>
-                    <div class="stat">
-                        <p class="percentage">20%</p>
-                        <p class="stat-item">of tech jobs are taken by females. Women hold a lower share of computer science jobs. Tech industry has significantly expanded, but opportunities for diverse groups of women have shrunk. </p>
-                    </div>
-                </div>
-
-                <!-- program -->
-                <div id="program">
-                    <h2>Our Program</h2>
-
-                    <ol>
-                        <li>Introduces girls to the basics of Python programming, Web Development, and Web Design.</li>
-                        <li>Provides an opportunity to visit tech companies in Sillicon Valley to explore and talk with the industry experts.</li>
-                        <li>Prepares incoming freshmen to a college life through informal mentorship and  a variety of available resources.</li>
-                        <li>Creates an empowering community of friends through fun social activities (ice cream social, board games, etc.).</li>
-                    </ol>
-                </div>
-            </div>
-
-            <div class="info content-section">
-                <!-- image -->
-                <div id="committees-image">
-                    <img src="assets/images/committees2018.jpg"/>
-                </div>
-
-                <!-- goals -->
-                <div id="goals">
-                    <div id="goals-content">
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 mb-5 mb-md-0">
                         <h3>Exposure</h3>
-
-                        <p>You will get the opportunity to visit tech companies in the Bay Area to see what life is like for computer scientists in industry.</p>
-
+                        <p class="lead">You will get the opportunity to visit tech companies in the Bay Area to see what life is like for computer scientists in industry.</p>
                         <h3>Diversity</h3>
-                        <p>Participants are all girls coming from different backgrounds to explore the creativity and diversity of computer science.</p>
-
+                        <p class="lead">Participants are all girls coming from different backgrounds to explore the creativity and diversity of computer science.</p>
                         <h3>Community</h3>
-                        <p>You will meet around 50 other girls with similar interests, allowing you to form an inclusive community before school starts.</p>
+                        <p class="lead">You will meet around 50 other girls with similar interests, allowing you to form an inclusive community before school starts.</p>
+                        <a href="">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Learn More</button>
+                        </a>
                     </div>
-
-                    <a href=""><div class="button">Learn More</div></a>
-                </div>
-            </div>
-
-            <!-- sponsors -->
-            <div id="sponsors" class="content-section">
-                <h2>Our Sponsors & Partners</h2>
-                <div id="sponsor-logos">
-                    <div class="logo"><img src="assets/images/google.jpg"/></div>
-                    <div class="logo"><img src="assets/images/dropbox.png"/></div>
-                    <div class="logo"><img src="assets/images/janestreet.png"/></div>
-                    <div class="logo"><img src="assets/images/mongodb.png"/></div>
-                    <div class="logo"><img src="assets/images/godaddy.png"/></div>
-                    <div class="logo"><img src="assets/images/cloudera.png"/></div>
-                    <div class="logo"><img src="assets/images/schlumberger.png"/></div>
-                    <div class="logo"><img src="assets/images/stickeryou.png"/></div>
-                    <div class="logo"><img src="assets/images/splunk.jpg"/></div>
-                </div>
-                <br>
-                <a href=""><div class="button">Help Us Make a Difference</div></a>
-            </div>
-        </div>
-
-        <div id="footer">
-            <!-- stay informed -->
-            <div id="informed">
-                <h3>Stay Informed!</h3>
-                <form action="">
-                    <input type="text" placeholder="Email Address" name="mail" required>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-
-            <!-- footer links -->
-            <div id="footer-links">
-                <div class="footer-link-group">
-                    <h4>About Us</h4>
-                    <a href="">Our Mission</a>
-                    <a href="">Our Team</a>
-                </div>
-
-                <div class="footer-link-group">
-                    <h4>Impact</h4>
-                    <a href="">Stories</a>
-                    <a href="">Program</a>
-                </div>
-
-                <div class="footer-link-group">
-                    <h4>Our Program</h4>
-                    <a href="">Apply</a>
-                    <a href="">Learn More</a>
-                </div>
-
-                <div class="footer-link-group">
-                    <h4>Get Involved</h4>
-                    <a href="">Current Members</a>
-                    <a href="">Sponsor Us</a>
-                </div>
-
-                <div id="social-media">
-                    <a class="social-logo" href="https://www.facebook.com/CS.KickStart" target="_"><img src="assets/images/facebook.svg"/></a>
-                    <a class="social-logo" href="https://www.instagram.com/cs.kickstart/" target="_"><img src="assets/images/instagram.svg"/></a>
-                    <a class="social-logo" href="https://medium.com/@cskickstart" target="_"><img src="assets/images/medium.svg"/></a>
                 </div>
             </div>
         </div>
-    </body>
+    </section>
+
+    <!-- SPONSORS -->
+    <section class="container-fluid px-0 text-center align-items-center justify-content-center">
+        <h2>OUR SPONSORS & PARTNERS</h2>
+        <div id="sponsor-logos text-center align-items-center justify-content-center">
+            <div class="row align-items-center justify-content-center">
+                <div class="logo"><img src="imgs/google.jpg"/></div>
+                <div class="logo"><img src="imgs/dropbox.png"/></div>
+                <div class="logo"><img src="imgs/janestreet.png"/></div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="logo"><img src="imgs/mongodb.png"/></div>
+                <div class="logo"><img src="imgs/godaddy.png"/></div>
+                <div class="logo"><img src="imgs/cloudera.png"/></div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="logo"><img src="imgs/schlumberger.png"/></div>
+                <div class="logo"><img src="imgs/stickeryou.png"/></div>
+                <div class="logo"><img src="imgs/splunk.jpg"/></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <br><br>
+    <footer class="footer page-footer text-center align-items center justify-content center">
+        <section class="container-fluid px-0 text-center align-items-center justify-content-center pink-bg">
+            <h3 class="mb-4">Stay Informed!</h3>
+            <!-- <form action="emails.php">
+                <input type="text" placeholder="Email Address" name="mail" required="">
+                <input type="submit" value="Submit">
+            </form> -->
+            <a href="https://forms.gle/oLRMDbLB9hEbRfte6">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join our mailing list!</button>
+            </a>
+        </section>
+        <section class="container-fluid px-0 text-center align-items-center justify-content-center row">
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">About Us</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="about.html" class="lead">Our Mission</a>
+                    </li>
+                    <li>
+                        <a href="committees.html" class="lead">Our Team</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Impact</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="about.html#about-press" class="lead">Stories</a>
+                    </li>
+                    <li>
+                        <a href="https://sites.google.com/umich.edu/cskickstart/home" class="lead">Sister Program</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Our Program</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="incoming_new.html" class="lead">Apply</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="lead">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Get Involved</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="current_members.html" class="lead">Current Members</a>
+                    </li>
+                    <li>
+                        <a href="sponsors.html" class="lead">Support Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-2 mx-0 align-items-center justify-content-center" id="social-media">
+                <a class="social-logo" href="https://www.facebook.com/CS.KickStart" target="_"><img src="imgs/facebook.svg"></a>
+                <a class="social-logo" href="https://www.instagram.com/cs.kickstart/" target="_"><img src="imgs/instagram.svg"></a>
+                <a class="social-logo" href="https://medium.com/@cskickstart" target="_"><img src="imgs/medium.svg"></a>
+            </div>
+        </section>
+        <br><br>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
 </html>

@@ -10,16 +10,14 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/favicon.ico">
 
+    <link rel="stylesheet" href="css/incoming_n.css">
     <link rel="stylesheet" href="https://use.typekit.net/xzn4fqe.css">
     <script type="text/javascript" src = 'public/javascript/faq.js'></script>
-    <title>CSK | Incoming Students</title>
-
-    <link rel="stylesheet" type="text/css" href="assets/styles/indexstyle.css">
-    <link rel="stylesheet" href="https://use.typekit.net/vhi7kwp.css">
+    <title>CS KickStart</title>
 
     <!-- Bootstrap Core CSS -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
@@ -45,87 +43,54 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="./public/css/incoming_new.css">
-
 </head>
 
 <body style="margin:0;padding:0" onload="showAnswer()">
-    <div id="navbar">
-        <a id = "logo" href="index.html">CS Kickstart</a>
-        <div id = "nav-right">
-            <a class = "nav" href="about.html">About Us</a>
-            <a class = "nav" href="committees.html">Get Involved</a>
-            <a class = "nav" href="calendar.html">Events</a>
-            <a class = "nav" href="sponsors.html">Sponsor Us</a>
-            <a class = "nav" href="current_members.html">Alumni</a>
-            <a href="incoming_new.html"><div class="button">APPLY</div></a>
-        </div>
-    </div>
 
   <div class="incoming-page">
 
-      <section class="banner container-fluid">
-          <div class="row incoming-banner align-items-end">
-            <!-- <img src="public/images/about.jpg" width="100%"> -->
-            <h2 class="incoming-title px-3 py-1">INCOMING STUDENTS</h2>
-          </div>
+      <div class="incoming-banner">
           <!-- <img src="public/images/about.jpg" class="header-img" alt="" width="100%"> -->
-      </section>
+          <div class="gray-box"></div>
+          <h2 class="incoming-title">INCOMING STUDENTS</h2>
+      </div>
 
-      <section class = "timeline content" >
+      <div class = "timeline">
+          <h2 class="header-title">
+            Our Timeline
+          </h2>
+          <img src="public/images/incoming_timeline.jpg" class="timeline-img timeline-format">
+          <button class="apply-button button" onclick="window.location.href = 'https://google.com';">APPLY HERE</button>
+      </div>
+
+
+      <div class = "schedule">
         <h2 class="header-title">
-              Our Timeline
+            Program Schedule
         </h2>
-        <img src="./public/images/incoming_timeline.jpg" class="mt-md-2">
-        <div class="text-center">
-          <a class="btn btn-outline-dark button" href="#">APPLY HERE</a>
-        </div>
-      </section>
+        <div class="purple-box"></div>
+      </div>
 
-      <hr>
-
-      <section class = "schedule content" >
-        <h2 class="header-title">
-              Program Schedule
-        </h2>
-        <img src="public/images/schedule.png">
-      </section>
-
-      <hr>
-
-      <section class = "curriculum content" >
-        <h2 class="header-title">
-              Curriculum Overview
-        </h2>
-        <div class="row">
-          <div class="col-md-6 order-2 order-md-1">
-            <img src="public/images/cute_placeholder.jpg" class="curriculum-placeholder">
+      <div class = "curriculum">
+        <h3 class="header-title">
+            Curriculum Overview
+        </h3>
+        <div class = "curriculum-content">
+          <img src = "public/images/cute_placeholder.jpg" class = "curriculum-placeholder">
+          <div class = "text-button">
+            <p class="body-text-curriculum">
+              Our Curriculum Committee has updated the curriculum and materials for CS KickStart’s 2020 cohort. In addition to learning python, they will participate in brand new seminars on website building, data science, and electrical engineering. Our goal is for students to explore many different current technologies to see the awesome things computer science and other related fields can offer!
+            </p>
+            <button class="demo-button button" onclick="window.location.href = 'https://google.com';" >PROJECT DEMO</button>
           </div>
-          <div class="col-md-6 order-1 order-md-2">
-            <div id="body-text-curriculum">
-              <p>
-                A brand new curriculum awaits CS Kickstart's 2020 cohort. In addition to learning python, students will participate on redesigned workshops on website building, data science, and electrical engineering.
-              </p>
-              <p>
-                Our goal is for students to explore a wide variety of current technologies to see the awesome things computer science and other related fields can offer!
-              </p>
-            </div>
-            <div class="text-center d-none d-lg-block">
-              <a class="btn btn-outline-dark button" href="#">Project Demo</a>
-            </div>
-
-          </div>
-
-
         </div>
-      </section>
 
-      <hr>
+      </div> 
 
-      <section class = "Afaq content">
+      <div class = "faq">
         <h3 class="header-title"> FAQs </h3>
 
-        <div id="Afaq">
+        <div id="faq">
           <div class="oneFAQ">
             <button class="question">Do I have to be an EECS or CS Major to participate in CS Kickstart?</button>
             <div class="answer">
@@ -188,13 +153,12 @@
             </div>
           </div>
 
-          <p class = "faq-email mt-3">For any additional questions, please contact
-          <a href = "mailto: cskickstart@gmail.com">cskickstart@gmail.com</a> Thank you!</p>
-        </div>
+          <p class = "faq-email">For any additional questions, please contact <em>cskickstart@gmail.com</em>. Thank you!</p>
+        </div> 
       </div>
-  </section>
+      
 
-  <hr>
+  </div>
 
 
     <!-- jQuery -->

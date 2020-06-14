@@ -1,30 +1,66 @@
-x<!DOCTYPE html>
-<html>
-<!-- this is where hidden data goes, such as linking css and fonts -->
-  <head>
-    <title>Sponsors</title>
-    <link rel="stylesheet" type="text/css" href="sponsorsStyle.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font -->
     <link rel="stylesheet" href="https://use.typekit.net/vhi7kwp.css">
-  </head>
-  <img src="committees2018.jpg" height="500">
-<!-- this is where all visible content goes -->
-    <!-- navigation bar-->
-    <body>
-      <div id="navbar">
-          <a class = "nav" href="">Home</a>
-          <a class = "nav" href="">About Us</a>
-          <a class = "nav" href="">Program</a>
-          <div class = "nav drop">
-              <div class = "drop-button">Sponsors</div>
-              <div class = "drop-nav">
-                  <a class = "nav" href="">Incoming Students</a>
-                  <a class = "nav" href="">Current Members</a>
-              </div>
-          </div>
-          <a href=""><div class="button">APPLY</div></a>
-      </div>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/headerfooterstyle.css">
+    <link rel="stylesheet" href="css/sponsorsstyle.css">
+
+    <title>CS Kickstart</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="index.html" class="navbar-brand">
+            <img src="imgs/logo.png" id="logo-img">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="committees.html" class="nav-link">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                    <a href="calendar.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sponsors.html" class="nav-link">Sponsor Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="current_members.html" class="nav-link">Alumni</a>
+                </li>
+                <li class="nav-item">
+                    <a href="incoming_new.html">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Apply</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
       <div id="main-content">
+
+          <section class="banner container-fluid">
+            <div class="row about-banner align-items-end">
+              <h2 class="about-title px-3 py-1">ABOUT US</h2>
+            </div>
+          </section>
 
         <!-- info -->
         <div>
@@ -112,48 +148,113 @@ x<!DOCTYPE html>
                 best suits your company’s interests.</p>
             <br>
               <a href="">
-                <button class="button" id="spon-button">SPONSOR OUR 2020 PROGRAM</button>
+                <button class="button" id="spon-button">Sponsor our 2020 program!</button>
               </a>
             <br>
-              <div id="sponsors" class="content-section">
-                  <h2>Our Sponsors & Partners</h2>
-                  <div id="sponsor-logos" class="container">
-                      <div class="logo"><img src="assets/images/google.jpg"/></div>
-                      <div class="logo"><img src="assets/images/dropbox.png"/></div>
-                      <div class="logo"><img src="assets/images/janestreet.png"/></div>
-                      <div class="logo"><img src="assets/images/mongodb.png"/></div>
-                      <div class="logo"><img src="assets/images/godaddy.png"/></div>
-                      <div class="logo"><img src="assets/images/cloudera.png"/></div>
-                      <div class="logo"><img src="assets/images/schlumberger.png"/></div>
-                      <div class="logo"><img src="assets/images/stickeryou.png"/></div>
-                      <div class="logo"><img src="assets/images/splunk.jpg"/></div>
-                  </div>
-                  <br>
-                  <a href=""><div class="button">Help Us Make a Difference</div></a>
-              </div>
-
-            </div>
-
-        </div>
-
-        <div id="footer">
-            <!-- stay informed -->
-            <div id="informed">
-                <h3>Join our newsletter!</h3>
-                <form action="">
-                    <input type="text" placeholder="Email Address" name="mail" required>
-                    <input type="submit" value="Submit">
-                </form>
+            <!-- SPONSORS -->
+            <section class="container-fluid px-0 text-center align-items-center justify-content-center">
+                <h2>OUR SPONSORS & PARTNERS</h2>
+                <div id="sponsor-logos text-center align-items-center justify-content-center">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="logo"><img src="imgs/google.jpg"/></div>
+                        <div class="logo"><img src="imgs/dropbox.png"/></div>
+                        <div class="logo"><img src="imgs/janestreet.png"/></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <div class="logo"><img src="imgs/mongodb.png"/></div>
+                        <div class="logo"><img src="imgs/godaddy.png"/></div>
+                        <div class="logo"><img src="imgs/cloudera.png"/></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <div class="logo"><img src="imgs/schlumberger.png"/></div>
+                        <div class="logo"><img src="imgs/stickeryou.png"/></div>
+                        <div class="logo"><img src="imgs/splunk.jpg"/></div>
+                    </div>
                 </div>
+            </section>
+
+    <!-- FOOTER -->
+    <br><br>
+    <footer class="footer page-footer text-center align-items center justify-content center">
+        <section class="container-fluid px-0 text-center align-items-center justify-content-center pink-bg">
+            <h3 class="mb-4">Stay Informed!</h3>
+            <!-- <form action="emails.php">
+                <input type="text" placeholder="Email Address" name="mail" required="">
+                <input type="submit" value="Submit">
+            </form> -->
+            <a href="https://forms.gle/oLRMDbLB9hEbRfte6">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join our mailing list!</button>
+            </a>
+        </section>
+        <section class="container-fluid px-0 text-center align-items-center justify-content-center row">
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">About Us</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="about.html" class="lead">Our Mission</a>
+                    </li>
+                    <li>
+                        <a href="committees.html" class="lead">Our Team</a>
+                    </li>
+                </ul>
             </div>
-            <div id="footer-links"><div id="social-media">
-                    <a class="social-logo" href="https://www.facebook.com/CS.KickStart" target="_"><img src="assets/images/facebook.svg"/></a>
-                    <a class="social-logo" href="https://www.instagram.com/cs.kickstart/" target="_"><img src="assets/images/instagram.svg"/></a>
-                    <a class="social-logo" href="https://medium.com/@cskickstart" target="_"><img src="assets/images/medium.svg"/></a>
-                </div>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Impact</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="about.html#about-press" class="lead">Stories</a>
+                    </li>
+                    <li>
+                        <a href="https://sites.google.com/umich.edu/cskickstart/home" class="lead">Sister Program</a>
+                    </li>
+                </ul>
             </div>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    </body>
-</html>>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Our Program</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="incoming_new.html" class="lead">Apply</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="lead">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 mx-0 align-items-center justify-content-center">
+                <h5 class="font-weight-bold text-uppercase mt-5 mb-4">Get Involved</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="current_members.html" class="lead">Current Members</a>
+                    </li>
+                    <li>
+                        <a href="sponsors.html" class="lead">Support Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-2 mx-0 align-items-center justify-content-center" id="social-media">
+                <a class="social-logo" href="https://www.facebook.com/CS.KickStart" target="_"><img src="imgs/facebook.svg"></a>
+                <a class="social-logo" href="https://www.instagram.com/cs.kickstart/" target="_"><img src="imgs/instagram.svg"></a>
+                <a class="social-logo" href="https://medium.com/@cskickstart" target="_"><img src="imgs/medium.svg"></a>
+            </div>
+        </section>
+        <br><br>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>
