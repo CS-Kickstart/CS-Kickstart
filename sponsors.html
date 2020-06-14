@@ -15,11 +15,15 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/headerfooterstyle.css">
     <link rel="stylesheet" href="css/sponsorsstyle.css">
+    <link rel="stylesheet" href="css/faq.css">
+
+    <!-- Custom JS -->
+    <script type="text/javascript" src = 'javascript/faq.js'></script>
 
     <title>CS Kickstart</title>
 </head>
 
-<body>
+<body onload="showAnswer()">
     <!-- NAVBAR -->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
         <a href="index.html" class="navbar-brand">
@@ -57,102 +61,102 @@
       <div id="main-content">
 
           <section class="banner container-fluid">
-            <div class="row about-banner align-items-end">
-              <h2 class="about-title px-3 py-1">ABOUT US</h2>
+            <div class="row sponsor-banner align-items-end">
+              <h2 class="about-title px-3 py-1">SPONSOR US</h2>
             </div>
           </section>
 
         <!-- info -->
         <div>
             <!-- background -->
-            <p id="text">One of our biggest goals is to increase the accessibility of a
+            <p class="content text text-center">One of our biggest goals is to increase the accessibility of a
               computer science education. As a result, our program is free to
               charge to participants, and we depend on sponsors to keep CS
-              Kickstart possible.  (this blurb will be changed)</p>
+              Kickstart possible. Without our sponsors, there would be no way we would be able to host so many students and provide an experience that will positively impact their pursuit of computer science, completely free of charge to eliminate any possible barriers.</p>
             <!-- packages -->
-            <h1 id="text">Packages</h1>
-                <!-- giga -->
-              <div class="container">
-                <div class="row">
-                <div id="left" class="col-lg-4 col-md-12 box1">
-                  <h2><strong>Gigabyte</strong></h2>
-                  <ul>
-                    <li>Funds 4 Participants</li>
-                    <li>Company Logo on CS Kickstart website and on every participant
-                      T-shirt</li>
-                    <li>Company promotional materials distributed to participants
-                      during KickStart Week</li>
-                      <li>Company representative featured in our KickStart Week
-                        - Industry Panel (if space available)</li>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
+            <h2 class="text text-center">PACKAGES</h2>
+            <p class="content text text-center">A donation is a wonderful way to support our program! Your gift will help us recruit teachers and guest speakers, provide the students with meals & boarding, develop our curricular materials, and continue to provide students with a fun and comprehensive introduction to the computer science field.
+            <br>To contribute, please explore our sponsorship levels and contact <a href="mailto:cskickstart@gmail.com">cskickstart@gmail.com</a>.</p>
 
-                  </ul>
-                  <div class="money"><strong>$2,000</strong></div>
-                </div>
+            <section id="gallery">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-lg-4 mb-4 mt-4 ">
+                        <div class="card h-100 pink-card">
+                            <img class="card-img-top" src="imgs/sponsors/4.jpg" alt="">
+                            <div class="card-body flex-column">
+                                <h2 class="text-center card-title">GIGABYTE</h2>
+                                <ul class="card-text">
+                                      <li>Funds 4 Participants</li>
+                                      <li>Company Logo on CS Kickstart website and on every participant
+                                        T-shirt</li>
+                                      <li>Company promotional materials distributed to participants
+                                        during KickStart Week</li>
+                                      <li>Company representative featured in our KickStart Week
+                                          - Industry Panel (if space available)</li>
+                                </ul>
+                            </div>
+                            <h3 class="text-center card-footer mt-auto">$2000</h3>
+                        </div>
+                      </div>
 
-                <!-- tera -->
-                <div class="col-lg-4 col-md-12 box1">
-                  <h2><strong>Terabyte</strong></h2>
-                  <ul>
-                    <li>Funds 7 Participants</li>
-                    <li>All perks associated with the Gigabyte Sponsor</li>
-                    <li>Company workshop held during the school year with CS
-                      Kickstart alumni (does not include food costs)</li>
-                    <li>Compilation of resumes from CS Kickstart alumni</li>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                      <div class="col-lg-4 mb-4 mt-4">
+                        <div class="card h-100 pink-card">
+                            <img class="card-img-top" src="imgs/sponsors/7.JPG" alt="">
+                            <div class="card-body flex-column">
+                                <h2 class="text-center card-title">TERABYTE</h2>
+                                <ul class="card-text">
+                                      <li>Funds 7 Participants</li>
+                                      <li>All perks associated with the Gigabyte Sponsor</li>
+                                      <li>Company workshop held during the school year with CS
+                                        Kickstart alumni (does not include food costs)</li>
+                                      <li>Compilation of resumes from CS Kickstart alumni</li>
+                                </ul>
+                            </div>
+                            <h3 class="text-center card-footer mt-auto">$3500</h3>
+                        </div>
+                    </div>
 
-
-                  </ul>
-                  <div class="money"><strong>$3,500</strong></div>
-                </div>
-
-                <!-- peta -->
-                <div id="right" class="col-lg-4 col-md-12 box1">
-                  <h2><strong>Petabyte</strong></h2>
-                  <ul>
-                    <li>Funds 10 Participants</li>
-                    <li>All perks associated with the Terabyte Sponsor</li>
-                    <li>Company field trip during the school year</li>
-                    <li>Additional company workshop during the school year
-                      (2 workshops total)</li>
-                    <li>Added to our mailing list, which contains updates on
-                      upcoming events,opportunities, and news about your company
-                      throughout the year</li>
-                    <li>A long-term relationship with the past and future
-                      CS Kickstart students</li>
-                    <li>Sponsored mini event during Kickstart Week</li>
-                    <li>Exclusive Network Dinner with CS Kickstart alumni
-                      (does not include food costs)</li>
-                  </ul>
-                  <div class="money"><strong>$5,000</strong></div>
-                </div>
-                </div>
+                       <div class="col-lg-4 mb-4 mt-4">
+                           <div class="card h-100 pink-card">
+                               <img class="card-img-top" src="imgs/sponsors/10.jpg" alt="">
+                               <div class="card-body flex-column">
+                                   <h2 class="text-center card-title">PETABYTE</h2>
+                                   <ul class="card-text">
+                                       <li>Funds 10 Participants</li>
+                                       <li>All perks associated with the Terabyte Sponsor</li>
+                                       <li>Company field trip during the school year</li>
+                                       <li>Additional company workshop during the school year
+                                         (2 workshops total)</li>
+                                       <li>Added to our mailing list, which contains updates on
+                                         upcoming events,opportunities, and news about your company
+                                         throughout the year</li>
+                                       <li>A long-term relationship with the past and future
+                                         CS Kickstart students</li>
+                                       <li>Sponsored mini event during Kickstart Week</li>
+                                       <li>Exclusive Network Dinner with CS Kickstart alumni
+                                         (does not include food costs)</li>
+                                   </ul>
+                                </div>
+                                <h3 class="text-center card-footer mt-auto">$5000</h3>
+                           </div>
+                       </div>
+                   </div>
               </div>
-            </div>
+           </section>
 
-            <!-- sponsor info -->
-            <p class="more_info" id="text">If your company is interested in making a custom donation,
-              please contact us so we can customize a sponsorship package that
-                best suits your company’s interests.</p>
-            <br>
-              <a href="">
-                <button class="button" id="spon-button">Sponsor our 2020 program!</button>
-              </a>
-            <br>
+             <div class="text text-center">
+               <p class="display-5">If your company is interested in making a custom donation,
+                 please contact us so we can customize a sponsorship package that
+                   best suits your company’s interests.</p>
+               <div class="text-center">
+                 <a class="btn btn-outline-success button mt-md-1 mb-2" href="#">Sponsor our 2020 program!</a>
+               </div>
+             </div>
+           </section>
+
             <!-- SPONSORS -->
-            <section class="container-fluid px-0 text-center align-items-center justify-content-center">
+            <section class="container-fluid content px-0 text-center align-items-center justify-content-center">
                 <h2>OUR SPONSORS & PARTNERS</h2>
                 <div id="sponsor-logos text-center align-items-center justify-content-center">
                     <div class="row align-items-center justify-content-center">
@@ -172,6 +176,35 @@
                     </div>
                 </div>
             </section>
+
+            <section class="container-fluid content px-0 align-items-center justify-content-center">
+            <h2 class="text-center">FAQs</h2>
+            <br>
+            <div id="faq">
+            	<div class="oneFAQ">
+            		<button class="question">My company is donating! When and where do we send the money?</button>
+            		<div class="answer">
+            		  <p>We accept donations year round. Please email cskickstart@gmail.com indicating your interest in a sponsorship package. However, in order to be featured on the program website and T-shirts, a donation should be sent by no later than May 10, 2019.</p>
+            		</div>
+            	</div>
+
+            	<div class="oneFAQ">
+            		<button class="question">When is the Industry Panel?</button>
+            		<div class="answer">
+            		  <p>The Industry panel will take place during the week of CS Kickstart. Tentatively, it will take place between Tuesday, August 6th to Sunday, August 11th. As the date nears, we will release further information about event logistics.</p>
+            		</div>
+            	</div>
+
+            	<div class="oneFAQ">
+            		<button class="question">What should I expect from the Industry Panel?</button>
+            		<div class="answer">
+            			<p>Ideally, we’d like our panelists to share what led them to the computer science field and to their particular position in the company they represent. Professional tips, life advice, and career interests are topics that are also encouraged. The CS Kickstart organizers will prepare questions about your professional and personal experiences and then the panel will be open to questions from student participants.</p>
+            		</div>
+            	</div>
+
+            	<h5 class="text-center">For any additional questions, please contact <a href="mailto:cskickstart@gmail.com">cskickstart@gmail.com</a>. Thank you!</h5>
+            </div>
+        </section>
 
     <!-- FOOTER -->
     <br><br>

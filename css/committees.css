@@ -1,6 +1,6 @@
 /* ################### CONTENT ################### */
 .content {
-    margin: 4vw 14vw 2vw ;
+    margin: 4vw 14vw 2vw;
 }
 @media (max-width: 1200px){
     .content {
@@ -22,10 +22,4 @@ hr {
 
 .card-title{
     font-size: 1.5em;
-}
-
-@media (min-width: 991px){
-    /* .card{
-        min-height: 800px;
-    } */
 }

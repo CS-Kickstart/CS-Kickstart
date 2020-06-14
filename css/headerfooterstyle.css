@@ -12,6 +12,7 @@ body {
     background: white;
     font-weight: 400;
     color: var(--cskfont);
+    overflow-x: hidden;
 }
 
 .content {
@@ -42,7 +43,42 @@ body {
 }
 
 .about-banner {
-    background-image: url("../imgs/about.jpg");
+    background-image: url("../imgs/headers/2019.png");
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
+.committees-banner {
+    background-image: url("../imgs/headers/about.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
+.sponsor-banner {
+    background-image: url("../imgs/headers/2018 copy.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
+.alumni-banner {
+    background-image: url("../imgs/headers/2017.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
+.incoming-banner {
+    background-image: url("../imgs/headers/2019 copy.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
+.events-banner {
+    background-image: url("../imgs/headers/events.png");
     background-position: center;
     background-size: cover;
     height: 30vw;
@@ -53,7 +89,16 @@ body {
     margin-left: auto;
     padding: 5vh;
     text-align: center;
-    width: 55%;
+    width: 72vw;
+}
+
+@media (max-width: 1200px) {
+    .body-text {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        width: 90vw;
+    }
 }
 
 .hr {
@@ -73,6 +118,7 @@ body {
 
 #mainNavbar .nav-link:hover {
     color: white;
+    font-weight: 500;
 }
 
 .navbar.scrolled {
@@ -115,8 +161,29 @@ body {
 
 /* FOOTER */
 .pink-bg {
-    padding: 7vh;
+    padding: 7vh 5vw;
     background-color: var(--cskpink60);
+}
+
+.purple-bg {
+    padding: 7vh 5vw;
+    background-color: var(--cskpurple60);
+}
+
+.pink-card {
+    background-color: var(--cskpink60);
+}
+
+.purple-card {
+    background-color: var(--cskpurple60);
+}
+
+.bg {
+    padding: 15vh 0vw;
+}
+
+.bg h3 {
+    padding: 2vw;
 }
 
 input[type=text] {

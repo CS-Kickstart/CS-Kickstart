@@ -1,0 +1,35 @@
+/* ################### GENERAL ################### */
+body {
+    scroll-behavior: smooth;
+}
+
+.content {
+    margin: 4vw 14vw 2vw ;
+}
+
+@media (max-width: 1200px){
+    .content {
+        margin: 3vw 8vw 2vw;
+    }
+}
+
+@media (max-width: 800px){
+    .content {
+        margin: 3vw 5vw 1vw;
+    }
+}
+
+hr {
+    /*border: 5px solid red;*/
+    width: 70%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/* ################### CURRICULUM ################### */
+.curriculum-placeholder {
+    border-radius: 15px;
+}
