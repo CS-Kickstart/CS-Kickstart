@@ -8,6 +8,10 @@
 }
 
 @media (max-width: 1200px){
+	.sponsorFAQ {
+		margin-bottom: 10px;
+		padding: 5px 0px;
+	}
     .oneFAQ {
         padding: 5px 0px;
     }
