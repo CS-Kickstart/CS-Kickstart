@@ -1,20 +1,23 @@
 .oneFAQ {
 	margin-bottom: 10px;
-    padding: 5px 90px;
+}
+
+.sponsorFAQ {
+	padding: 5px 90px;
 }
 
 @media (max-width: 1200px){
     .oneFAQ {
-        padding: 5px 5px;
+        padding: 5px 0px;
     }
 }
 
 .question {
 	font-family: brandon-grotesque, sans-serif;
-	font-size: 28px;
+	font-size: 25px;
   	background-color: rgb(218, 223, 255);
 	cursor: pointer;
-	padding: 10px 20px;
+	padding: 8px 16px;
 	width: 100%;
 	border: none;
 	text-align: left;
@@ -28,7 +31,7 @@
 .answer {
 	font-family: brandon-grotesque, sans-serif;
 	font-size: 25px;
-  	padding: 0px 20px;
+  	padding: 0px 16px;
   	max-height: 0;
   	overflow: hidden;
   	transition: max-height 0.2s ease-out;
@@ -37,4 +40,10 @@
 
 .answer p {
     padding-top: 20px;
+}
+
+.add {
+	font-size: 26px;
+	font-weight: 700;
+	margin-top: 12px;
 }
