@@ -32,7 +32,7 @@ body {
     font-size: 5vh;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .header {
         padding-top: 5vh;
     }
@@ -136,7 +136,7 @@ body {
     width: 20vw;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     #logo-img {
         width: 30vw;
     }
@@ -233,7 +233,7 @@ input[type=submit] {
     padding: 5vh 0.5vw 1vh 0.5vw;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .social-logo {
         width: 10vw;
         padding: 5vh 0.5vw 1vh 0.5vw;
