@@ -184,6 +184,11 @@ body {
     background-color: var(--cskpurple60);
 }
 
+.sponsor-cards {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .bg {
     padding: 15vh 0vw;
 }
