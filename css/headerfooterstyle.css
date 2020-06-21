@@ -32,6 +32,12 @@ body {
     font-size: 5vh;
 }
 
+@media (max-width: 1200px) {
+    .header {
+        padding-top: 5vh;
+    }
+}
+
 .about-title {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
