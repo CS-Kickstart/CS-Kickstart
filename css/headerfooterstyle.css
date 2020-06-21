@@ -212,15 +212,26 @@ input[type=submit] {
     }
 }
 
+#social-hosting {
+    display: flex;
+    flex-direction: column;
+}
+
 #social-media {
     display: flex;
     flex-direction: row;
-    padding: 0vw 2vw 0vw 0vw;
 }
 
 .social-logo {
-    width: 12vw;
-    padding: 3vw 0vw 0vw 2vw;
+    width: 4vw;
+    padding: 5vh 0.5vw 1vh 0.5vw;
+}
+
+@media (max-width: 1200px) {
+    .social-logo {
+        width: 10vw;
+        padding: 5vh 0.5vw 1vh 0.5vw;
+    }
 }
 
 /* CALENDAR */
