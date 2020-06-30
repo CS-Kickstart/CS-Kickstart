@@ -3,6 +3,7 @@
     color: #ffffff;
     position: absolute;
     z-index: 999;
+    margin-top: 7vh;
     margin-left: 25vw;
 }
 
@@ -41,19 +42,16 @@
 .expansion {
     padding: 8vh;
     padding-bottom: 0;
-    color: #ffffff;
     margin-left: auto;
     margin-right: auto;
 }
 
 .exp {
-    color: white;
     padding: 0;
     padding-top: 2vh;
 }
 
 .csk-email {
-    color: white;
     text-decoration: none;
 }
 

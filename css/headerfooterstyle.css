@@ -30,6 +30,11 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 5vh;
+    padding-top: 9vh;
+}
+
+#banner {
+    padding-top: 5vh;
 }
 
 @media (max-width: 768px) {
@@ -116,6 +121,8 @@ body {
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 400;
+    height: 9vh;
+    background-color: var(--cskpurple);
 }
 
 #mainNavbar .nav-link {
@@ -124,15 +131,18 @@ body {
 
 #mainNavbar .nav-link:hover {
     color: white;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.navbar.scrolled {
+#mainNavbar.scrolled {
     background: var(--cskpurple);
+    height: 9vh;
     transition: background 500ms;
+    transition: height 500ms;
 }
 
 #logo-img {
+    padding-top: 1vh;
     width: 20vw;
 }
 
