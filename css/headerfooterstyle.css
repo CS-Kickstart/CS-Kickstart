@@ -68,7 +68,7 @@ body {
 }
 
 .sponsor-banner {
-    background-image: url("../imgs/headers/2018 copy.jpg");
+    background-image: url("../imgs/headers/2018 copy.JPG");
     background-position: center;
     background-size: cover;
     height: 30vw;
@@ -134,21 +134,20 @@ body {
     font-weight: 600;
 }
 
-#mainNavbar.scrolled {
-    background: var(--cskpurple);
-    height: 9vh;
-    transition: background 500ms;
-    transition: height 500ms;
-}
-
 #logo-img {
     padding-top: 1vh;
     width: 20vw;
 }
 
 @media (max-width: 768px) {
+    #mainNavbar {
+        height: 6vh;
+    }
+
     #logo-img {
-        width: 30vw;
+        padding-top: 0;
+        height: 5vh;
+        width: auto;
     }
 }
 
@@ -161,10 +160,9 @@ body {
 }
 
 #sponsor-logos{
-    width: 80vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -173,6 +171,16 @@ body {
     width: 25vw;
     padding: 2.5vw;
     height: auto;
+}
+
+.navbar-collapse {
+    background-color: var(--cskpurple);
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item .btn {
+    margin: 0.5rem;
 }
 
 /* FOOTER */

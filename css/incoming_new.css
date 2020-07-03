@@ -3,7 +3,7 @@ body {
     scroll-behavior: smooth;
 }
 
-.content {
+/* .content {
     margin: 4vw 14vw 2vw ;
 }
 
@@ -17,7 +17,7 @@ body {
     .content {
         margin: 3vw 5vw 1vw;
     }
-}
+} */
 
 hr {
     /*border: 5px solid red;*/
@@ -25,7 +25,7 @@ hr {
 }
 
 
-img {
+.img100 {
     max-width: 100%;
 }
 
