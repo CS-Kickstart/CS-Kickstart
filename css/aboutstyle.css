@@ -1,6 +1,6 @@
 /* ################### TIMELINE ################### */
 .timeline {
-    color: #ffffff;
+    color: #333;
     position: absolute;
     z-index: 999;
     margin-top: 7vh;
