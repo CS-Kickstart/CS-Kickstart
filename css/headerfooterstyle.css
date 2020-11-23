@@ -48,16 +48,16 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 4vw;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
     color: black;
     margin: 0;
 }
 
 .about-banner {
-    background-image: url("../imgs/headers/2019.png");
+    background-image: url("../imgs/headers/2020-1.png");
     background-position: center;
     background-size: cover;
-    height: 30vw;
+    height: 36vw;
 }
 
 .committees-banner {
@@ -82,7 +82,7 @@ body {
 }
 
 .incoming-banner {
-    background-image: url("../imgs/headers/2019 copy.jpg");
+    background-image: url("../imgs/headers/2019.png");
     background-position: center;
     background-size: cover;
     height: 30vw;
