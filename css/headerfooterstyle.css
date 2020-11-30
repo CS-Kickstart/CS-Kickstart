@@ -54,7 +54,7 @@ body {
 }
 
 .about-banner {
-    background-image: url("../imgs/headers/2019.png");
+    background-image: url("../imgs/headers/2019.jpg");
     background-position: center;
     background-size: cover;
     height: 30vw;
@@ -89,7 +89,7 @@ body {
 }
 
 .events-banner {
-    background-image: url("../imgs/headers/events.png");
+    background-image: url("../imgs/headers/events.jpg");
     background-position: center;
     background-size: cover;
     height: 30vw;
