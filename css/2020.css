@@ -1,0 +1,31 @@
+/* ################### CONTENT ################### */
+.content {
+    margin: 4vw 14vw 2vw;
+    width: 72vw;
+}
+
+.twenty-photo {
+    width: 100%;
+    display: block;
+}
+.img-rounded {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+@media (max-width: 1200px){
+    .content {
+        margin: 3vw 8vw 2vw;
+        width: 100%
+    }
+}
+
+
+hr {
+    width: 70%;
+}
+
+/* ################### CARDS ################### */
+
+.card-title{
+    font-size: 1.5em;
+}

@@ -95,6 +95,13 @@ body {
     height: 30vw;
 }
 
+.twenty-banner {
+    background-image: url("../imgs/headers/2020recap.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
 .body-text {
     margin-right: auto;
     margin-left: auto;
