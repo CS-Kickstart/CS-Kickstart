@@ -201,6 +201,14 @@ body {
     background-color: var(--cskpurple60);
 }
 
+
+.purple-bg-round {
+    border-radius: 25px;
+    padding: 7vh 5vw;
+    
+    background-color: var(--cskpurple60);
+}
+
 .pink-card {
     background-color: var(--cskpink60);
 }
