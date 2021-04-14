@@ -26,7 +26,7 @@
 
 <body onload="showAnswer()">
     <!-- NAVBAR -->
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg py-0 fixed-top">
         <a href="index.html" class="navbar-brand">
             <img src="imgs/logo.png" id="logo-img">
         </a>
@@ -62,13 +62,29 @@
 
   <div class="incoming-page">
 
-      <section class="col banner container-fluid header">
+      <section class="banner container-fluid header">
         <div class="row incoming-banner align-items-end">
           <h2 class="about-title px-3 py-1">INCOMING STUDENTS</h2>
         </div>
       </section>
 
       <section class = "timeline content container" >
+          <div class="tab-content">
+          <div class="about-expansion announcement2-bg text-center">
+                <h2 class="text-center bring-csk">
+                  Announcement
+                </h2>
+                <p>
+                   Our 2021 program will be virtual! Learn more about last year's virtual program through the 2020 recap <a href="2020.html"> <u> here</u>. </a>
+                </p>
+            </div>
+          </div>
+
+<!--           white space -->         
+         <div class="about-intro">
+               <p class="body-text">
+               </p>
+          </div>
         <h2 class="header-title text-center">
               SUMMER 2020 TIMELINE
         </h2>
@@ -106,9 +122,36 @@
               <li><b>Social Activities:</b> In addition to the daily activities, students will participate in a number of social activities led by current undergraduates (e.g. ice cream social, game night) to create a network of students
                   that together may promote a climate of inclusion within the EECS department.</li>
           </ul>
+        </div>
+
+      <!-- <h3 class="text-center">2019 Schedule</h3>
+        <img src="imgs/schedule.png" class="img100"> -->
+
+      <div id="scheduleCarousel" class="carousel slide mt-5" data-interval="false">
+        <ol class="carousel-indicators">
+          <li data-target="#scheduleCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#scheduleCarousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="text-center">2019 In-Person Schedule</h3>
+            <img src="imgs/schedule.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <h3 class="text-center">2020 Virtual Schedule</h3>
+            <img src="imgs/virtual_schedule.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#scheduleCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#scheduleCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <h3 class="text-center">2019 Schedule</h3>
-        <img src="imgs/schedule.png" class="img100">
+      
       </section>
 
       <hr>
@@ -124,7 +167,7 @@
           <div class="col-md-6 order-1 order-md-2">
             <div id="body-text-curriculum">
               <p>
-                A brand new curriculum awaits CS Kickstart's 2020 cohort. In addition to learning python, students will participate on redesigned workshops on website building, data science, and electrical engineering.
+                A brand new curriculum awaits CS Kickstart's 2021 cohort. In addition to learning python, students will participate on redesigned workshops on website building, data science, and electrical engineering.
               </p>
               <p>
                 Our goal is for students to explore a wide variety of current technologies to see the awesome things computer science and other related fields can offer!

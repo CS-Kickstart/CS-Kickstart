@@ -37,3 +37,20 @@
   align-items: flex-start;
   justify-content: space-around;
 }
+
+.main-text {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 4vh;
+  text-align: center;
+  width: 72vw;
+}
+
+@media (max-width: 1200px) {
+  .main-text {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      width: 90vw;
+  }
+}

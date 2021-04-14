@@ -48,7 +48,7 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 4vw;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
     color: black;
     margin: 0;
 }
@@ -90,6 +90,13 @@ body {
 
 .events-banner {
     background-image: url("../imgs/headers/events.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
+.twenty-banner {
+    background-image: url("../imgs/headers/2020recap.jpg");
     background-position: center;
     background-size: cover;
     height: 30vw;
@@ -194,6 +201,18 @@ body {
     background-color: var(--cskpurple60);
 }
 
+.announcement-bg {
+    padding: 1vh 5vw;
+    background-color: var(--cskpurple60);
+    border-radius: 25px;
+}
+
+.announcement2-bg {
+    padding: 4vh 4vw;
+    background-color: var(--cskpurple60);
+    border-radius: 25px;
+}
+
 .pink-card {
     background-color: var(--cskpink60);
 }
@@ -266,7 +285,7 @@ input[type=submit] {
 /* CALENDAR */
 .googleCalendar{
   position: relative;
-  width: 60%;
+  width: 70%;
   padding-bottom: 50%;
 }
 

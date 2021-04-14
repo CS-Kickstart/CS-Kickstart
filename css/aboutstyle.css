@@ -115,15 +115,18 @@
     }
 }
 
+.bring-csk {
+    margin: 1rem;
+}
+
 
 /* ################### PRESS ################### */
 #about-press {
     margin-top: 7vh;
-    height: 40vh;
     width: 72vw;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 23vh;
+    margin-bottom: auto;
 }
 
 .press {
@@ -139,6 +142,7 @@
     text-align: center;
     width: 100%;
     display: inline-block;
+    padding-bottom: 25px;
 }
 
 .icon {
