@@ -201,6 +201,18 @@ body {
     background-color: var(--cskpurple60);
 }
 
+.announcement-bg {
+    padding: 1vh 5vw;
+    background-color: var(--cskpurple60);
+    border-radius: 25px;
+}
+
+.announcement2-bg {
+    padding: 4vh 4vw;
+    background-color: var(--cskpurple60);
+    border-radius: 25px;
+}
+
 .pink-card {
     background-color: var(--cskpink60);
 }
