@@ -29,6 +29,10 @@ hr {
     max-width: 100%;
 }
 
+.header-title {
+    margin-bottom: 15px;
+}
+
 /* ################### CURRICULUM ################### */
 .curriculum-placeholder {
     border-radius: 15px;
