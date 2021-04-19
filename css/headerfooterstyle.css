@@ -20,6 +20,14 @@ body {
     margin-bottom: 100px;
 }
 
+.content-top {
+    margin-top: 100px;
+}
+
+.content-bot {
+    margin-bottom: 100px;
+}
+
 /* ################### GENERAL ################### */
 body {
     scroll-behavior: smooth;
@@ -209,17 +217,24 @@ body {
     background-color: var(--cskpurple60);
 }
 
+/* ANNOUNCEMENT */
 .announcement-bg {
     padding: 1vh 5vw;
     background-color: var(--cskpurple60);
     border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 72vw;
 }
 
-.announcement2-bg {
-    padding: 4vh 4vw;
-    background-color: var(--cskpurple60);
-    border-radius: 25px;
+.bring-csk {
+    margin: 1rem;
 }
+
+
+.announcement-text {
+    font-family: 'Libre Franklin', sans-serif;;
+} 
 
 .pink-card {
     background-color: var(--cskpink60);
