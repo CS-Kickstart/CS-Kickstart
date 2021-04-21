@@ -115,10 +115,15 @@
     }
 }
 
+/* ################### ANNOUNCEMENT ################### */
 .bring-csk {
     margin: 1rem;
 }
 
+.announcement-m{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
 
 /* ################### PRESS ################### */
 #about-press {
