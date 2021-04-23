@@ -6,4 +6,13 @@
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.events-page {
+    margin-top: 100px;
+}
+
+.calendar {
+    margin-top: 50px;
 }

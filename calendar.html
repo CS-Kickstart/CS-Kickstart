@@ -31,9 +31,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navLinks">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link">About Us</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="about.html">Our Program</a>
+                      <a class="dropdown-item" href="2020.html">2020 Recap</a>
+                    </div>
                 </li>
+
                 <li class="nav-item">
                     <a href="committees.html" class="nav-link">Get Involved</a>
                 </li>
@@ -61,31 +69,36 @@
     </div>
     </section>
 
-    <section class = "content upcoming-events" > 
-        <div class="text-center header-title">
-            <h2>UPCOMING EVENTS</h2>
-        </div>
-        <ul>
-            <li>
-                <div>
-                    <h3 class = "mb-1"> CSK at Cal Day: Double Major Panel</h3>
-                    <p class = "mb-1">4-6 pm // April 25</p>
-                    <p> Interested in both Computer Science and another field? Come learn about how to explore new interests through double majoring or minoring at UC Berkeley! The panel will include a diverse range of double majors, including Cognitive Science, Business, and Data Science majors.
-                </div>
-            </li>
-        </ul>
-        
-        </p>
-    </section>
 
-    <section class="content container-fluid align-items-center justify-content-center">
-        <div class="text-center">
-            <h2>CALENDAR</h2>
-        </div>
-        <div class="googleCalendar container-fluid align-items-center justify-content-center">
-          <iframe src="https://calendar.google.com/calendar/embed?src=2a00t0gr26aq3dcs0gbtlhf35g%40group.calendar.google.com&ctz=America%2FLos_Angeles" width="800px" height="600px" frameborder="0" scrolling="no"></iframe>
-        </div>
-    </section>
+    <div class = "events-page">
+        <section class = "upcoming-events" > 
+            <div class="text-center header-title">
+                <h2>UPCOMING EVENTS</h2>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <h3 class = "mb-1"> CSK at Cal Day: Double Major Panel</h3>
+                        <p class = "mb-1"> <b>4-6 pm // April 25</b> </p>
+                        <p> Interested in both Computer Science and another field? Come learn about how to explore new interests through double majoring or minoring at UC Berkeley! The panel will include a diverse range of double majors, including Cognitive Science, Business, and Data Science majors.
+                    </div>
+                </li>
+            </ul>
+            
+            </p>
+        </section>
+    
+        <hr width = 50%>
+    
+        <section class="calendar container-fluid align-items-center justify-content-center">
+            <div class="text-center">
+                <h2>CALENDAR</h2>
+            </div>
+            <div class="googleCalendar container-fluid align-items-center justify-content-center">
+              <iframe src="https://calendar.google.com/calendar/embed?src=2a00t0gr26aq3dcs0gbtlhf35g%40group.calendar.google.com&ctz=America%2FLos_Angeles" width="800px" height="600px" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </section>
+    </div>
 
     <!-- FOOTER -->
     <br><br>
