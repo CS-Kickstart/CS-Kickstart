@@ -1,7 +1,20 @@
 /* ################### CONTENT ################### */
 .content {
-    margin: 4vw 14vw 2vw;
+    margin: 2vw 14vw 2vw;
     width: 72vw;
+}
+
+.content-side {
+    margin-left: 14vw;
+    margin-right: 14vw;
+}
+
+.header-title {
+    margin-top: 60px;
+}
+
+.title-wrap {
+    margin: 4vw 14vw 2vw;
 }
 
 .twenty-photo {
@@ -24,8 +37,51 @@ hr {
     width: 70%;
 }
 
+/*.card-title,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: white;
+} */
+
+.carousel-indicators .active{
+    background-color: white;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
 /* ################### CARDS ################### */
 
 .card-title{
     font-size: 1.5em;
+}
+
+.card-bg{
+    background-color: var(--cskpurple60);
+    padding: 7vh 3vh;
+}
+
+.cards{
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
