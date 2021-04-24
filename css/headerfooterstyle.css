@@ -219,7 +219,7 @@ body {
 
 /* ANNOUNCEMENT */
 .announcement-bg {
-    padding: 1vh 5vw;
+    padding: 2vh 5vw;
     background-color: var(--cskpurple60);
     border-radius: 25px;
     margin-right: auto;
